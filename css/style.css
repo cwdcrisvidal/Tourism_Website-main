@@ -1,0 +1,344 @@
+/* global setting */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* global styling */
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5em;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+.navbar h1 {
+  padding-right: 450px;
+}
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+p {
+  margin: 10px;
+}
+
+/* navigation */
+.navbar {
+  background: #fff;
+  overflow: hidden;
+  color: black;
+  height: 65px;
+}
+
+.navbar a {
+  color: black;
+}
+
+.navbar a {
+  display: block;
+  padding: 20px;
+  float: left;
+}
+
+.navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+.navbar a:hover {
+  color: blue;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#home {
+  background: url("../image/tuk.jpg") no-repeat center center/cover;
+  height: 600px;
+}
+
+#home .home-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+
+#home .home-content h1 {
+  font-size: 150px;
+  line-height: 1.2em;
+}
+
+.primary-text {
+  color: #f0f0cb;
+}
+
+#home .home-content p {
+  padding-bottom: 60px;
+  line-height: 1.7em;
+}
+
+#heading {
+  margin-top: 50px;
+}
+
+.heading {
+  display: block;
+  margin-top: 50px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.heading h2 {
+  font-size: 60px;
+}
+
+.text-lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #334756;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#about {
+  height: 450px;
+  display: block;
+  align-content: center;
+}
+#about-1 {
+  height: 450px;
+  display: block;
+  align-content: center;
+}
+
+#about p {
+  line-height: 2em;
+  font-size: 15px;
+}
+#about h2 {
+  color: #ffb740;
+}
+#about i {
+  margin-bottom: 10px;
+}
+#about-1 .content-1,
+#about-1 .content-2,
+#about-1 .content-3,
+#about-1 .content-4 {
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 20px;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.content-1 {
+  background: url("../image/the-grenadines-2.jpg");
+  background-size: cover;
+  width: 23%;
+  height: 350px;
+  border-radius: 30px;
+  margin: 0 10px;
+}
+
+.content-2 {
+  background: url("../image/barbados-2.jpg");
+  background-size: cover;
+  width: 23%;
+  height: 350px;
+  border-radius: 30px;
+  margin: 0 10px;
+}
+
+.content-3 {
+  background: url("../image/virgin-islands1-2.jpg");
+  background-size: cover;
+  width: 23%;
+  height: 350px;
+  border-radius: 30px;
+  margin: 0 10px;
+}
+
+.content-4 {
+  background: url("../image/havana-2.jpg");
+  background-size: cover;
+  width: 23%;
+  height: 350px;
+  border-radius: 30px;
+  margin: 0 10px;
+}
+
+#tour-packages .tour-1,
+#tour-packages .tour-2,
+#tour-packages .tour-3 {
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.tour-1 {
+  background: url("../image/1-3-580x378.jpg");
+  background-size: cover;
+  width: 32%;
+  height: 350px;
+  border-radius: 30px;
+  margin: 0 4px;
+}
+
+.tour-2 {
+  background: url("../image/3-3-580x378.jpg");
+  background-size: cover;
+  width: 32%;
+  height: 350px;
+  border-radius: 30px;
+  margin: 0 4px;
+}
+
+.tour-3 {
+  background: url("../image/8-1-580x378.jpg");
+  background-size: cover;
+  width: 32%;
+  height: 350px;
+  border-radius: 30px;
+  margin: 0 4px;
+}
+
+#about a.c-btn {
+  color: #082032;
+}
+#about a.c-btn:hover {
+  color: #ffb740;
+}
+
+/* section testimonials */
+#tour-packages {
+  background: url("../image/beautifuk-scenery.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  overflow: hidden;
+}
+
+#tour-packages .heading {
+  color: #fff;
+}
+
+.row {
+  background: rgba(39, 62, 84, 0.4);
+  overflow: hidden;
+  height: 700px;
+  z-index: 2;
+}
+#tour-packages .lead-head {
+  color: #fff;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.bg-primary {
+  background: rgba(255, 255, 255, 0.4);
+}
+#tour-packages .testimonial {
+  padding: 20px;
+  width: 50%;
+  margin-bottom: 40px;
+  border-radius: 1.2em;
+}
+footer {
+  padding-top: 10px;
+  background: #082032;
+  height: 100px;
+  overflow: auto;
+}
+footer p {
+  text-align: center;
+  color: #fff;
+}
+
+#about .card {
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.card {
+  background-size: cover;
+  width: 23%;
+  height: 177px;
+  border-radius: 30px;
+  margin: 0 10px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.card-title {
+  text-align: left;
+  font-size: 30px;
+  padding-top: 100px;
+  padding-left: 20px;
+  color: #fff;
+}
+
+#contacts {
+  background: #333;
+  height: 300px;
+}
+
+#contacts .heading {
+  color: white;
+}
+
+#contacts .card {
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 20px;
+  align-items: center;
+  width: 31%;
+}
+
+h4 {
+  font-size: 40px;
+}
+
+i {
+  font-size: 40px;
+}
+
